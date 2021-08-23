@@ -1,1 +1,1 @@
-{ pkgs }: { deps: [pkgs.ruby_2_6]; }
+{ pkgs }: { deps = [pkgs.ruby_3_0 pkgs.sqlite]; }

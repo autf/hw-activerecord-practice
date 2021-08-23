@@ -1,2 +1,2 @@
 language = "nix"
-run = "ruby -v"
+run = "bin/rspec --fail-fast"
